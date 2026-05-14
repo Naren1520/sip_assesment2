@@ -51,7 +51,7 @@ export const RegisterPage = () => {
 
       <FormContainer
         title="Create Account"
-        subtitle="Join our learning platform"
+        subtitle="Join our secure learning platform today"
         onSubmit={handleSubmit(onSubmit)}
       >
         <FormInput
@@ -100,15 +100,15 @@ export const RegisterPage = () => {
         <Button
           type="submit"
           loading={loading}
-          className="bg-gradient-primary hover:opacity-90 text-white mt-6"
+          className="bg-primary-600 hover:bg-primary-700 text-white font-semibold mt-6"
         >
           Create Account
         </Button>
 
-        <p className="text-center text-gray-400 text-sm mt-4">
+        <p className="text-center text-neutral-600 text-sm mt-4">
           Already have an account?{' '}
-          <Link to="/login" className="text-primary-400 hover:text-primary-300 font-medium">
-            Login here
+          <Link to="/login" className="text-primary-600 hover:text-primary-700 font-semibold">
+            Sign in instead
           </Link>
         </p>
       </FormContainer>

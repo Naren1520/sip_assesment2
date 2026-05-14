@@ -28,7 +28,7 @@ export const Toast = ({ message, type = 'success', onClose }) => {
       <span className="flex-1 font-medium">{message}</span>
       <button
         onClick={onClose}
-        className="text-gray-400 hover:text-gray-600 transition-colors"
+        className="text-neutral-400 hover:text-neutral-600 transition-colors"
       >
         <X className="w-4 h-4" />
       </button>
